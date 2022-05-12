@@ -1,0 +1,17 @@
+{
+  "Passport": {
+    "SerNum": 1234567,
+    "last_name": "Красильников",
+    "first_name": "Илья",
+    "patronymic": "Азатович",
+    "gender": "Male",
+    "birthdate": "1993-11-01",
+    "locality": "гор.",
+    "locname": "Ижевск",
+    "issuedby": "Отделом отдела отделов по отдеду в отделе",
+    "issuedate": "2000-01-01",
+    "issuedbycode": 123456,
+    "married": 0,
+    "updated": "2022-05-12T10:00:00.0"
+  }
+}

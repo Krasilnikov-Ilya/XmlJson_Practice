@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients_inf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="пример 2.xsd">
+
+    <type>vip-клиент</type>
+    <pdata>
+      <first_name>Данил</first_name>
+      <surname>Даниев</surname>
+
+      <contacts>
+        <phone>79879626300</phone>
+        <e-mail>danievd@gmail.com</e-mail>
+        <skype>Danil Daniev</skype>
+      </contacts>
+  
+      <documents>
+        <document>
+	      <document_type>Паспорт РФ</document_type>
+	      <series>5678</series>
+	      <number>673458</number>
+          <issued_by>Отделом УФМС РФ по Самарской области</issued_by>
+	      <issue_date>2002-11-12</issue_date>
+	      <division_code>630-324</division_code>
+	      <first_name>Данил</first_name>
+	      <surname>Даниев</surname>
+	      <birth_date>22.02.1998</birth_date>
+	      <gender>МУЖ</gender>
+	      <birth_place>г.Самара,Самарская обл-ть</birth_place>
+	      <registration> г.Самара,ул.Советской Армии,д.123,кв.4 </registration>
+	    </document>
+	    <document>
+	      <document_type>Полис ОМС</document_type>
+	      <number>6391857970971615</number>
+	    </document>
+	    <document> 
+	      <document_type>Страховое свидетельство</document_type>
+	      <number>79851413352</number>
+	      <full_name>Даниев Данил Олегович</full_name>
+	      <birth_date>22.02.1998</birth_date>
+	      <birth_place>г.Самара,Самарская обл-ть</birth_place>
+	      <gender>МУЖ</gender>
+	    </document> 
+	    <document> 
+	      <document_type>ИНН</document_type>
+	      <number>165707918275</number>
+	      <issue_date>14.05.2020</issue_date>
+	      <full_name>Даниев Данил Олегович</full_name>
+	      <gender>МУЖ</gender>
+	      <birth_date>22.02.1998</birth_date>
+	      <birth_place>г.Самара,Самарская обл-ть</birth_place>
+	    </document> 
+		<document> 
+		  <document_type>Водительское удостоверение</document_type>
+		  <first_name>Данил</first_name>
+		  <surname>Даниев</surname>
+		  <birth_date>22.02.1998</birth_date>
+		  <birth_place>г.Самара,Самарская обл-ть</birth_place>
+		  <issue_date>22.02.2019</issue_date>
+		  <expiry_date>22.02.2029</expiry_date>
+		  <issued_by>ГИБДД 7725</issued_by>
+		  <series>4569</series>
+		  <number>134897</number>
+		  <region>Самарская обл-ть</region>
+		  <category>B</category>
+		</document>
+	   </documents>	  
+	</pdata>
+	<education>
+      <university>Самарский национальный исследовательский университет им. академика С.П.Королева</university>
+	  <faculty>Исторический</faculty>
+	  <department>Международные отношения</department>
+	  <start_year>2016</start_year>
+	  <end_year>2020</end_year>
+	  <degree>Бакалавр</degree>
+	</education>
+	<job_experience>
+	  <company>ООО 'Талант'</company>
+	  <position>junior translator</position> 
+	  <start_date>13.06.2018</start_date>
+	  <end_date>14.02.2019</end_date>
+	</job_experience>
+	<service>
+	  <service_name>Поступление в ВУЗ</service_name>
+	  <country>Германия</country>
+	  <university>Свободный университет Берлина</university>
+	  <degree>Магистратура</degree>
+	  <terms>Получение гранта</terms>
+	  <language_level>Немецкий B2</language_level>	
+	</service>
+</clients_inf>		  	   
+	   
+	 
+	 

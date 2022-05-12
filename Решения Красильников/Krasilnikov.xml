@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Passport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="Krasilnikov.xsd">
+    <SerNum>1234567</SerNum>
+    <last_name>Красильников</last_name>
+    <first_name>Илья</first_name>
+    <patronymic>Азатович</patronymic>
+    <!-- Здесь могло быть "Оглы" -->
+    <gender>Male</gender>
+    <birthdate>1993-11-01</birthdate>
+    <locality>гор.</locality>
+    <locname>Ижевск</locname>
+    <issuedby>Отделом отдела отделов по отдеду в отделе</issuedby>
+    <issuedate>2000-01-01</issuedate>
+    <issuedbycode>123456</issuedbycode>
+    <married>0</married>
+    <updated>2022-05-12T10:00:00.0</updated>
+</Passport>

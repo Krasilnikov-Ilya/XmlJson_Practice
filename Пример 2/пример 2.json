@@ -1,0 +1,100 @@
+{"clients_inf":
+{
+  "type":"vip-клиент",
+  "pdata": {
+	  "first_name":"Данил",
+	  "surname":"Даниев",
+	  "contacts": {
+		  "phone":"79879626300",
+		  "e-mail":"danievd@gmail.com",
+		  "skype":"Danil Daniev"
+	  },
+	  "documents": {
+		  "document": [
+		  {
+			  "document_type": "Паспорт РФ",
+			  "series":"5678",
+			  "number":"673458",
+			  "issued_by":"Отделом УФМС РФ по Самарской области",
+			  "issue_date":"13.01.2012",
+			  "division_code":"630-324",
+			  "first_name":"Данил",
+			  "surname":"Даниев",
+			  "birth_date":"22.02.1998",
+			  "gender":"МУЖ",
+			  "birth_place":"г.Самара,Самарская обл-ть",
+			  "registration":"г.Самара,ул.Советской Армии,д.123,кв.4",
+		  },
+		  {
+			  "document_type":"Полис ОМС",
+			  "number":"6391857970971615"
+		  },
+		  {
+			  "document_type":"Страховое свидетельство",
+			  "number":"79851413352",
+			  "full_name":"Даниев Данил Олегович",
+			  "birth_date":"22.02.1998",
+			  "birth_place":"г.Самара,Самарская обл-ть",
+			  "gender":"МУЖ"
+		  },
+		  {
+			  "document_type":"ИНН",
+			  "number":"165707918275",
+			  "issue_date":"14.05.2020",
+			  "full_name":"Даниев Данил Олегович",
+			  "gender":"МУЖ",
+			  "birth_date":"22.02.199",
+			  "birth_place":"г.Самара,Самарская обл-ть"
+		  },
+		  {
+			  "document_type":"Водительское удостоверение",
+			  "first_name":"Данил",
+			  "surname":"Даниев",
+			  "birth_date":"22.02.1998",
+			  "birth_place":"г.Самара,Самарская обл-ть",
+			  "issue_date":"22.02.2019",
+			  "expiry_date":"22.02.2029",
+			  "issued_by":"ГИБДД 7725",
+			  "series":"4569",
+			  "number":"134897",
+			  "region":"Самарская обл-ть",
+			  "category":"B"
+		  }
+		  ]
+	  }
+  },
+  "education": {
+     "university":"Самарский национальный исследовательский университет им. академика С.П.Королева",
+      "faculty":"Исторический",
+	  "department":"Международные отношения",
+	  "start_year":"2016",
+	  "end_year":"2020",
+	  "degree":"Бакалавр"
+	 },
+  "job_experience": {
+	  "company":"ООО 'Талант'",
+	  "position":"junior translator",
+	  "start_date":"13.06.2018",
+	  "end_date":"14.02.2019"
+  },
+  "service": {
+	  "service_name":"Поступление в ВУЗ",
+	  "country":"Германия",
+	  "university":"Свободный университет Берлина",
+	  "degree":"Магистратура",
+	  "terms":"Получение гранта",
+	  "language_level":"Немецкий B2"
+  }
+ }
+}
+	  
+		  
+	
+		  
+			  
+			  
+			 
+			  
+		  
+			  
+  

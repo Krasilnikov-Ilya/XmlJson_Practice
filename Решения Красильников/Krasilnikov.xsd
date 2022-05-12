@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Passport">
+        <xs:complexType>
+            <!-- Я бы наделал составных, но сложнее - не всегда лучше -->
+            <xs:sequence>
+                <!-- Серия и номер одним элементом, проще искать -->
+                <xs:element name="SerNum" type="xs:decimal" maxOccurs="1"/>
+                <!-- Моё видение передачи ФИО, только простые элементы -->
+                <xs:element name="last_name" type="xs:string" maxOccurs="1"/>
+                <xs:element name="first_name" type="xs:string" maxOccurs="1"/>
+                <xs:element name="patronymic" type="xs:string" maxOccurs="1"/>
+                <!-- Здесь будет "Оглы" для азербайджанцев, не обязательно -->
+                <xs:element name="patronymictype" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <!-- Хотел сделать Boolean, но не стал :D -->
+                <xs:element name="gender" type="xs:string" maxOccurs="1"/>
+                <!-- Элементы дат стандартизованы -->
+                <xs:element name="birthdate" type="xs:date" maxOccurs="1"/>
+                <!-- Сначала тип населённого пункта (посёлок, деревня или город) -->
+                <xs:element name="locality" type="xs:string" maxOccurs="1"/>
+                <!-- Потом имя населённого пункта -->
+                <xs:element name="locname" type="xs:string" maxOccurs="1"/>
+                <!-- Кем выдан -->
+                <xs:element name="issuedby" type="xs:string" maxOccurs="1"/>
+                <!-- Дата выдачи -->
+                <xs:element name="issuedate" type="xs:date" maxOccurs="1"/>
+                <!-- Код подразделения имел дефис, но работаем только с цифрами -->
+                <xs:element name="issuedbycode" type="xs:decimal" maxOccurs="1"/>
+                <!-- Всё-таки добавлю один Boolean, предположим, надо знать, состоит ли в браке -->
+                <xs:element name="married" type="xs:boolean" maxOccurs="1"/>
+                <!-- Ещё дату и время получения данных передать надо, по гринвичу. А то вдруг женюсь -->
+                <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

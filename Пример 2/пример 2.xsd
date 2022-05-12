@@ -1,0 +1,89 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clients_inf">
+        <xs:complexType>
+			<xs:sequence>
+			    <xs:element name="type" type="xs:string"/>
+				<xs:element name="pdata">
+					<xs:complexType>
+					    <xs:sequence>
+						    <xs:element name="first_name" type="xs:string"/>
+						    <xs:element name="surname" type="xs:string"/>
+				            <xs:element name="contacts">
+					            <xs:complexType>
+						         <xs:sequence>
+						            <xs:element name="phone" type="xs:long"/>
+						            <xs:element name="e-mail" type="xs:string"/>
+						            <xs:element name="skype" type="xs:string"/>
+				                 </xs:sequence>
+					            </xs:complexType>
+				            </xs:element>
+				            <xs:element name="documents">
+					            <xs:complexType>
+						         <xs:sequence>
+		                             <xs:element name="document" maxOccurs="unbounded">
+			                              <xs:complexType>
+					                         <xs:choice minOccurs="0" maxOccurs="unbounded">
+						                        <xs:element name="document_type" type="xs:string"/>
+					                            <xs:element name="series" type="xs:string"/>
+						                        <xs:element name="number" type="xs:string"/>
+						                        <xs:element name="issued_by" type="xs:string"/>
+					                            <xs:element name="issue_date" type="xs:date"/>
+						                        <xs:element name="division_code" type="xs:string"/>
+						                        <xs:element name="first_name" type="xs:string"/>
+						                        <xs:element name="surname" type="xs:string"/>
+						                        <xs:element name="birth_date" type="xs:date"/>
+						                        <xs:element name="gender" type="xs:string"/>
+			                                    <xs:element name="birth_place" type="xs:string"/>
+						                        <xs:element name="registration" type="xs:string"/>
+					                            <xs:element name="full_name" type="xs:string"/>
+						                        <xs:element name="expiry_date" type="xs:date"/>
+						                        <xs:element name="region" type="xs:string"/>
+						                        <xs:element name="category" type="xs:string"/>
+					                        </xs:choice>
+			                              </xs:complexType>
+		                              </xs:element>
+	                              </xs:sequence>
+                                 </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="education">
+                     <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="university" type="xs:string"/>
+						        <xs:element name="faculty" type="xs:string"/>
+						        <xs:element name="department" type="xs:string"/>
+						        <xs:element name="start_year" type="xs:string"/>
+						        <xs:element name="end_year" type="xs:string"/>
+						        <xs:element name="degree" type="xs:string"/>
+					        </xs:sequence>
+                     </xs:complexType>
+                </xs:element>
+               <xs:element name="job_experience">
+                     <xs:complexType>
+                        <xs:sequence>
+                               <xs:element name="company" type="xs:string"/>
+						       <xs:element name="position" type="xs:string"/>
+						       <xs:element name="start_date" type="xs:date"/>
+						       <xs:element name="end_date" type="xs:date"/>
+					    </xs:sequence>
+                     </xs:complexType>
+                </xs:element>
+                <xs:element name="service">
+                   <xs:complexType>
+                        <xs:sequence>
+                               <xs:element name="service_name" type="xs:string"/>
+						       <xs:element name="country" type="xs:string"/>
+						       <xs:element name="university" type="xs:string"/>
+						       <xs:element name="degree" type="xs:string"/>
+						       <xs:element name="terms" type="xs:string"/>
+						       <xs:element name="language_level" type="xs:string"/>
+					    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+	
+		</xs:sequence>
+    </xs:complexType>
+  </xs:element>						
+</xs:schema>
