@@ -5,31 +5,31 @@
             <!-- Я бы наделал составных, но сложнее - не всегда лучше -->
             <xs:sequence>
                 <!-- Серия и номер одним элементом, проще искать -->
-                <xs:element name="SerNum" type="xs:decimal" maxOccurs="1"/>
+                <xs:element name="SerNum" type="xs:integer"/>
                 <!-- Моё видение передачи ФИО, только простые элементы -->
-                <xs:element name="last_name" type="xs:string" maxOccurs="1"/>
-                <xs:element name="first_name" type="xs:string" maxOccurs="1"/>
-                <xs:element name="patronymic" type="xs:string" maxOccurs="1"/>
+                <xs:element name="last_name" type="xs:string"/>
+                <xs:element name="first_name" type="xs:string"/>
+                <xs:element name="patronymic" type="xs:string"/>
                 <!-- Здесь будет "Оглы" для азербайджанцев, не обязательно -->
-                <xs:element name="patronymictype" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="patronymictype" type="xs:string" minOccurs="0"/>
                 <!-- Хотел сделать Boolean, но не стал :D -->
-                <xs:element name="gender" type="xs:string" maxOccurs="1"/>
+                <xs:element name="gender" type="xs:string"/>
                 <!-- Элементы дат стандартизованы -->
-                <xs:element name="birthdate" type="xs:date" maxOccurs="1"/>
+                <xs:element name="birthdate" type="xs:date"/>
                 <!-- Сначала тип населённого пункта (посёлок, деревня или город) -->
-                <xs:element name="locality" type="xs:string" maxOccurs="1"/>
+                <xs:element name="locality" type="xs:string"/>
                 <!-- Потом имя населённого пункта -->
-                <xs:element name="locname" type="xs:string" maxOccurs="1"/>
+                <xs:element name="locname" type="xs:string"/>
                 <!-- Кем выдан -->
-                <xs:element name="issuedby" type="xs:string" maxOccurs="1"/>
+                <xs:element name="issuedby" type="xs:string"/>
                 <!-- Дата выдачи -->
-                <xs:element name="issuedate" type="xs:date" maxOccurs="1"/>
+                <xs:element name="issuedate" type="xs:date"/>
                 <!-- Код подразделения имел дефис, но работаем только с цифрами -->
-                <xs:element name="issuedbycode" type="xs:decimal" maxOccurs="1"/>
+                <xs:element name="issuedbycode" type="xs:integer"/>
                 <!-- Всё-таки добавлю один Boolean, предположим, надо знать, состоит ли в браке -->
-                <xs:element name="married" type="xs:boolean" maxOccurs="1"/>
+                <xs:element name="married" type="xs:boolean"/>
                 <!-- Ещё дату и время получения данных передать надо, по гринвичу. А то вдруг женюсь -->
-                <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+                <xs:element name="updated" type="xs:dateTime"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

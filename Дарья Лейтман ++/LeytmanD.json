@@ -1,0 +1,19 @@
+{
+  "passportdata": {
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:noNamespaceSchemaLocation": "HWLeytmanD.xsd",
+    "series": "1234",
+    "number": 567890,
+    "surname": "Leytman",
+    "name": "Daria",
+    "patronymic": "Vladimirovna",
+    "gender": "Жен",
+    "dateOfBirth": "1997-09-25",
+    "location": "Гор.",
+    "city": "Москва",
+    "issuedBy": "Отделом отдела отделов",
+    "issuedDate": "2000-05-05",
+    "currentDate": "2022-05-14T16:54:33",
+    "currentTime": "16:54:33+04:00"
+  }
+}

@@ -1,0 +1,42 @@
+{"client_inf":
+	{	
+		"document_type": {
+			
+			"#text": "Паспорт гражданина РФ",
+		  		
+			"page_1": {
+				
+				"#text": "Паспортные данные:",
+		  
+				"series":5454,
+				"number":123321,
+				"issued_by":"ОВД по городу Жуковский",
+				"issue_date":"13.04.2009",
+				"subdivision_code":"501-031",
+				"surname":"Фролов",
+				"name":"Алексей",
+				"patronymic":"Александрович",
+				"gender":"МУЖ.",
+				"birth_date":"07.06.1989",
+				"birth_place":"г. Жуковский Московской области"
+				
+			},
+				  
+			"page_2": {
+				
+				"#text": "Данные о регистрации по месту жительства:",
+		  
+				"registration_date":"19.06.2002",
+				"region":"Московская обл.",
+				"location":"г. Жуковский",
+				"street":"Ленина ул.",
+				"house":"д. 3",
+				"building":"корп. 2",
+				"apartment":"кв. 4",
+				"registered_by":"ОВД по городу Жуковский",
+				"subdivision_code_address":"501-031"
+				
+			}
+		}
+	}
+}

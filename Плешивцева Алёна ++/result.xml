@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clients_inf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="test.xsd">
+    <type>vip-клиент</type>
+    <pdata>
+        <first_name>Алена</first_name>
+        <surname>Плешивцева</surname>
+        <contacts>
+            <phone>89164880833</phone>
+            <e-mail>alenkaalex@rambler.ru</e-mail>
+            <skype>alenkaalex</skype>
+        </contacts>
+        <documents>
+            <document>
+                <document_type>Паспорт РФ</document_type>
+                <series>4516</series>
+                <number>782404</number>
+                <issued_by>УФМС России по гор.Москве по району Нижегородский</issued_by>
+                <issue_date>2016-10-11</issue_date>
+                <birth_date>1996-09-27</birth_date>
+                <gender>Женский</gender>
+                <birth_place>Москва</birth_place>
+                <today>2020-05-13T15:00:00</today>
+                <time>15:00:00</time>
+                <timezone>00:00:00+03:00</timezone>
+            </document>
+        </documents>
+    </pdata>
+</clients_inf>

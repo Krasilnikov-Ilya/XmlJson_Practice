@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passport_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="passport_data.xsd">
+	<series>1234</series>
+	<number>567890</number>
+	<surname>Макарова</surname>
+	<first_name>Юлия</first_name>
+	<patronymic>Альбертовна</patronymic>
+	<gender>жен</gender>
+	<birth_date>2000-12-30</birth_date>
+	<locality_type>Город</locality_type>
+	<locality_name>Самара</locality_name>
+	<issued_by>Отделом УФМС РФ по Самарской области</issued_by>
+	<issue_date>2019-01-12</issue_date>
+	<division_code>180-001</division_code>
+</passport_data>

@@ -1,0 +1,47 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="passport" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="firstPage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:short" name="series"/>
+										<xs:element type="xs:positiveInteger" name="number"/>
+										<xs:element type="xs:string" name="passportGivenBy"/>
+										<xs:element type="xs:date" name="dateOfIssue"/>
+										<xs:element type="xs:string" name="divisionCode"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="secondPage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="surname"/>
+										<xs:element type="xs:string" name="name"/>
+										<xs:element type="xs:string" name="patronymic"/>
+										<xs:element type="xs:string" name="gender"/>
+										<xs:element type="xs:date" name="birthday"/>
+										<xs:element type="xs:string" name="PlaceOfBirth"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="fourthPage">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="region"/>
+										<xs:element type="xs:string" name="City"/>
+										<xs:element type="xs:string" name="Street"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

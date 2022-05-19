@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients_inf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD PF-lab.xsd">
+
+    <pdata>
+        <document>
+	      <document_type>Паспорт РФ</document_type>
+	      <series>1234</series>
+	      <number>567890</number>
+		  <first_name>Данил</first_name>
+	      <surname>Даниев</surname>
+		  <secondname>Данилович</secondname>
+		  <gender>МУЖ</gender>
+		  <birth_date>1998-02-12</birth_date>
+          <issued_by>Отделом отдела отделов</issued_by>
+		  <settlement_type>Гор.</settlement_type>
+		  <settlement_name>Москва</settlement_name>
+		  <issue_date>2012-01-13</issue_date>
+		  <current_date>2022-05-13T18:30:10.5</current_date>
+		</document> 
+	</pdata>
+</clients_inf>	
+	 
+	 

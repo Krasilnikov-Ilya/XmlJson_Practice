@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<homework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="passport.xsd">
+	<passport>
+		<series>1234</series>
+		<number>567890</number>
+		<surname>Назарова</surname>
+		<first_name>Юлия</first_name>
+		<second_name>Яковлевна</second_name>
+		<gender>Жен</gender>
+		<birth_date>1990-01-01</birth_date>
+		<region>Город</region>
+		<birth_place>Москва</birth_place>
+		<issued_by>Отделом УФМС РФ</issued_by>
+		<issue_date>2000-01-11</issue_date>
+	</passport>
+
+	<date_time>
+		<current_date_time>2022-05-15T10:30:30</current_date_time>
+		<current_time>10:30:30+04:00</current_time>
+	</date_time>
+</homework>

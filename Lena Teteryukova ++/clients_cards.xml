@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients_cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="clients_cards.xsd">
+	<client>
+		<id>3524186479</id>
+		<first_name>Artem</first_name>
+		<surname>Ivanov</surname>
+		<middle_name>Aleksandrovich</middle_name>
+		<birth_date>1975-05-13</birth_date>
+	</client>
+	<cards>
+		<card>
+			<id>38976</id>
+			<number>5432730013986390</number>
+			<type>debit</type>
+			<limit>350000</limit>
+			<start_date>2020-08-12</start_date>
+			<expire_date>2030-08-12</expire_date>
+		</card>
+		<card>
+		<id>65748</id>
+			<number>4432456734529076</number>
+			<type>credit</type>
+			<limit>1000000</limit>
+			<start_date>2021-10-17</start_date>
+			<expire_date>2026-10-17</expire_date>
+		</card>
+	</cards>
+</clients_cards>

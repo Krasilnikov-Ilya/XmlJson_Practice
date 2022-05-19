@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     <xs:element name="passport_data">
+          <xs:complexType>
+            <xs:sequence>
+                <xs:element name="series" type="xs:string"/>
+                <xs:element name="number" type="xs:positiveInteger"/>
+                <xs:element name="surname" type="xs:string"/>
+                <xs:element name="first_name" type="xs:string"/>
+                <xs:element name="patronymic" type="xs:string"/> 
+                <xs:element name="gender" type="xs:string"/>
+                <xs:element name="birth_date" type="xs:date"/>
+                <xs:element name="locality_type" type="xs:string"/>
+                <xs:element name="locality_name" type="xs:string"/>
+                <xs:element name="issued_by" type="xs:string"/>
+                <xs:element name="issue_date" type="xs:date"/>
+                <xs:element name="division_code" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+      </xs:element>
+</xs:schema>                                

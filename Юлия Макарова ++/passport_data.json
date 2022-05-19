@@ -1,0 +1,16 @@
+{"passport_data": 
+	{
+	"series":"1234",
+	"number":567890,
+	"surname":"Макарова",
+	"first_name":"Юлия",
+	"patronymic":"Альбертовна",
+	"gender":"жен",
+	"birth_date":"2000-12-30",
+	"locality_type":"Город",
+	"locality_name":"Самара",
+	"issued_by":"Отделом УФМС РФ по Самарской области",
+	"issue_date":"2019-01-12",
+	"division_code":"180-001"
+	}
+}

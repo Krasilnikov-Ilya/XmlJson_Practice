@@ -1,0 +1,36 @@
+{
+  "clients_inf": {
+    "pdata": {
+      "documents": {
+        "document": [
+          {
+            "document_type": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442 \u0420\u0424",
+            "series": 6852,
+            "number": 458235,
+            "issued_by": "2 \u043e\u0442\u0434\u0435\u043b\u043e\u043c \u043c\u0438\u043b\u0438\u0446\u0438\u0438 \u043b\u044e\u0431\u0435\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u0423\u0412\u0414 \u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+            "issue_date": "10.10.2017",
+            "division_code": "725-475",
+            "first_name": "\u041e\u043b\u044c\u0433\u0430",
+            "surname": "\u041a\u0430\u0440\u043f\u043e\u0432\u0430",
+            "birth_date": "16.07.1983",
+            "gender": "\u0416\u0415\u041d",
+            "birth_place": "\u0433.\u041c\u043e\u0441\u043a\u0432\u0430",
+            "startdate": "2022-05-13T18:30:10.5",
+            "start": "18:30:10Z"
+          },
+          {
+            "document_type": "\u0421\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0435 \u0441\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e",
+            "number": "204-882-774 85",
+            "full_name": "\u041a\u0430\u0440\u043f\u043e\u0432\u0430 \u041e\u043b\u044c\u0433\u0430 \u042e\u0440\u044c\u0435\u0432\u043d\u0430",
+            "birth_date": "16.07.1983",
+            "birth_place": "\u0433.\u041c\u043e\u0441\u043a\u0432\u0430",
+            "gender": "\u0416\u0415\u041d"
+          }
+        ]
+      }
+    },
+    "@attributes": {
+      "noNamespaceSchemaLocation": "Passport.xsd"
+    }
+  }
+}

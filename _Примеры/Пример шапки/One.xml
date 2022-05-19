@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<passport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="One.xsd">
+    <first_name>Данил</first_name>
+    <ser_num>1234567890</ser_num>
+</passport>
+

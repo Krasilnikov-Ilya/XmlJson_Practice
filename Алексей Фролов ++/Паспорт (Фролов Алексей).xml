@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client_inf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Паспорт (Фролов Алексей).xsd">
+
+    <document_type>Паспорт гражданина РФ
+	
+		<page_1>Паспортные данные
+	
+			<series>5454</series>
+			<number>123321</number>
+			<issued_by>ОВД по городу Жуковский</issued_by>
+			<issue_date>13.04.2009</issue_date>
+			<subdivision_code>501-031</subdivision_code>
+			<surname>Фролов</surname>
+			<name>Алексей</name>
+			<patronymic>Александрович</patronymic>
+			<gender>МУЖ.</gender>
+			<birth_date>07.06.1989</birth_date>
+			<birth_place>г. Жуковский Московской области</birth_place>
+		
+		</page_1>
+	
+		<page_2>Данные о регистрации по месту жительства
+	
+			<registration_date>19.06.2002</registration_date>
+			<region>Московская обл.</region>
+			<location>г. Жуковский</location>
+			<street>Ленина ул.</street>
+			<house>д. 3</house>
+			<building>корп. 2</building>
+			<apartment>кв. 4</apartment>
+			<registered_by>ОВД по городу Жуковский</registered_by>
+			<subdivision_code_address>501-031</subdivision_code_address>
+	
+		</page_2>
+	
+	</document_type>
+	
+</client_inf>

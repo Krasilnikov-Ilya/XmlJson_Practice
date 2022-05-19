@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passportdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="Passport(XSD).xsd">
+      <series>1234</series>
+      <number>567890</number>
+      <surname>Cherepenina</surname>
+      <name>Anastasia</name>
+	  <patronymic>Romanovna </patronymic>
+	  <gender>female</gender>
+	  <birthday>1997-07-28 </birthday>
+	  <locality>city</locality>
+	  <city_name>Moscow</city_name>
+	  <issued_by>department of departments </issued_by>
+	  <day_of_issue>---15</day_of_issue>
+	  <month_of_issue>--12</month_of_issue>
+	  <year_of_issue>2017</year_of_issue>
+	  <current_date>2022-05-15T22:06:55</current_date>
+	  <start>22:06:55+03:00</start>
+</passportdata>
+   

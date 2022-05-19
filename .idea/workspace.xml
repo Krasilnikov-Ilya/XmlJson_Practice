@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96f6e54-3d33-43ad-9cf4-06bd64c21706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ещё какие-то примеры/example-2.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ещё какие-то примеры/example-3.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Пример 1/example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Пример 1/example.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Пример 2/пример 2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Пример 2/пример 2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Пример 2/пример 2.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.Json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.xsd" afterDir="false" />
+    <list default="true" id="b96f6e54-3d33-43ad-9cf4-06bd64c21706" name="Changes" comment="Ну я пытался">
+      <change afterPath="$PROJECT_DIR$/Efimova Yana ++/Efimova_Yana_reqres.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Efimova Yana ++/Ticket info 1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Efimova Yana ++/Ticket info 1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Efimova Yana ++/Ticket info.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lena Teteryukova ++/Lena Teteryukova_reqres.in.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lena Teteryukova ++/clients_cards.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lena Teteryukova ++/clients_cards.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lena Teteryukova ++/clients_cards.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nazarova Yulia ++/passport.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nazarova Yulia ++/passport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nazarova Yulia ++/passport.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Olga Karpova ++/Olga_Karpova_reqres.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Olga Karpova ++/Passport.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Olga Karpova ++/Passport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Olga Karpova ++/Passport.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Примеры/Володя (крутой дофига)/Homework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Примеры/Володя (крутой дофига)/Homework.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Примеры/Пример шапки/One.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Примеры/Пример шапки/One.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Примеры/Пример шапки/One.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Алексей Фролов ++/Frolov_Alexey_reqres.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Алексей Фролов ++/Паспорт (Фролов Алексей).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Алексей Фролов ++/Паспорт (Фролов Алексей).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Алексей Фролов ++/Паспорт (Фролов Алексей).xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Анастасия Черепенина ++/Cherepenina A.R.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Анастасия Черепенина ++/Passport(XSD).xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Анастасия Черепенина ++/Passport(Xml).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Анастасия Черепенина ++/паспорт(.json).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Дарья Лейтман ++/HWLeytmanD.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Дарья Лейтман ++/HWLeytmanD.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Дарья Лейтман ++/LeytmanD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Дарья Лейтман ++/Leytman_Daria.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Илья Красильников ++/Krasilnikov reqres.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Константин Александров ++/passport.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Константин Александров ++/passport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Константин Александров ++/passport.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Лугинин Анатолий +/LugininXML1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Лугинин Анатолий +/LugininXSD1.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Лугинин Анатолий +/Lugininjson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Плешивцева Алёна ++/result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Плешивцева Алёна ++/result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Плешивцева Алёна ++/test.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Плешивцева Алёна ++/Постман Плешивцева Reqres.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Стефанович Вячеслав ++/Json Pf-lab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Стефанович Вячеслав ++/Stefanovich_Vyacheslav_reqres_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Стефанович Вячеслав ++/XML PF-lab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Стефанович Вячеслав ++/XSD PF-lab.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Юлия Макарова ++/Regres collectionMakarova.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Юлия Макарова ++/passport_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Юлия Макарова ++/passport_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Юлия Макарова ++/passport_data.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Яковенко Станислав ++/Yakovenko.S.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Яковенко Станислав ++/output.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Яковенко Станислав ++/паспорт Яковенко.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Яковенко Станислав ++/паспорт.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ещё какие-то примеры/example-2.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 3/example-2.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ещё какие-то примеры/example-3.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 3/example-3.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример 1/example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 1/example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример 1/example.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 1/example.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример 2/пример 2.json" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 2/пример 2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример 2/пример 2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 2/пример 2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример 2/пример 2.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/_Примеры/Пример 2/пример 2.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.Json" beforeDir="false" afterPath="$PROJECT_DIR$/Илья Красильников ++/Krasilnikov.Json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Илья Красильников ++/Krasilnikov.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Решения Красильников/Krasilnikov.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/Илья Красильников ++/Krasilnikov.xsd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +80,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="293aC0wZkA78AobqZFds1c4m8R0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,9 +92,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last.edited.regexp": "234-999",
+    "last_opened_file_path": "C:/Users/user/SwagtestBP",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\xmlpractice\Practice\_Примеры\Пример 3" />
+      <recent name="C:\Users\user\xmlpractice\Practice" />
+      <recent name="C:\Users\user\xmlpractice\Practice\Юлия Макарова" />
+      <recent name="C:\Users\user\xmlpractice\Practice\Nazarova Yulia" />
+      <recent name="C:\Users\user\xmlpractice\Practice\Ещё какие-то примеры" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1652344093761</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ну я пытался">
+      <created>1652352490820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652352490820</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ну я пытался" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ну я пытался" />
   </component>
 </project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passport xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="passport.xsd">
+	<fildes>	
+		<document_type>Паспорт РФ</document_type>
+		<series>5678</series>
+		<number>673458</number>
+		<issued_by>Отделом УФМС РФ по Самарской области</issued_by>
+		<issue_date>2012-01-13</issue_date>
+		<division_code>630-324</division_code>
+		<surname>Александров</surname>
+		<first_name>Константин</first_name>
+		<patronymic>Владимирович</patronymic>
+		<birth_date>1970-01-01</birth_date>
+		<gender>МУЖ</gender>
+		<birth_place>г. Москва</birth_place>
+		<registration>г. Москва, Тверская ул., 1, кв. 1</registration>
+	</fildes>
+</passport>		  	   
+	   
+	 
+	 

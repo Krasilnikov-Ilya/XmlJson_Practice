@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="client_inf">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="document_type">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="page_1">
+								<xs:complexType mixed="true">
+									<xs:sequence>
+										<xs:element name="series" type="xs:positiveInteger"/>
+										<xs:element name="number" type="xs:positiveInteger"/>
+										<xs:element name="issued_by" type="xs:string"/>
+										<xs:element name="issue_date" type="xs:string"/>
+										<xs:element name="subdivision_code" type="xs:string"/>
+										<xs:element name="surname" type="xs:string"/>
+										<xs:element name="name" type="xs:string"/>
+										<xs:element name="patronymic" type="xs:string" minOccurs="0"/>
+										<xs:element name="gender" type="xs:string"/> 
+										<xs:element name="birth_date" type="xs:string"/>
+										<xs:element name="birth_place" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="page_2">
+								<xs:complexType mixed="true">
+									<xs:sequence>
+										<xs:element name="registration_date" type="xs:string"/>
+										<xs:element name="region" type="xs:string"/>
+										<xs:element name="location" type="xs:string"/>
+										<xs:element name="street" type="xs:string"/>
+										<xs:element name="house" type="xs:string"/>
+										<xs:element name="building" type="xs:string" minOccurs="0"/>
+										<xs:element name="apartment" type="xs:string" minOccurs="0"/>
+										<xs:element name="registered_by" type="xs:string"/>
+										<xs:element name="subdivision_code_address" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>	
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	
+</xs:schema>

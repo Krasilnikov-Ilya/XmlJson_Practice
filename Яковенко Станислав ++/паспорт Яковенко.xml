@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<сustomer_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="output.xsd">
+ <document>
+  <document_type>Паспорт РФ</document_type>
+   <series>0101</series>
+   <number>454849</number>
+   <first_name>Иван</first_name>
+   <patronymic>Николавевич</patronymic>
+   <surname>Сидоров</surname>
+   <birth_date>1995-01-20</birth_date>
+   <gender>МУЖ</gender>
+   <division_code>770-010</division_code>
+   <issued_by>Отделом УФМС России по гор.Москве</issued_by>
+   <issue_date>2015-05-05</issue_date>
+   <birth_place>Россия,г.Москва</birth_place>
+   <registration>г.Москва,ул.Ленина 25, кв.5</registration>
+</document>
+</сustomer_data>

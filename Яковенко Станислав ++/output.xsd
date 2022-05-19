@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="сustomer_data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="document">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice  maxOccurs="unbounded">
+                                <xs:element type="xs:string" name="document_type"/>
+                                <xs:element name="series" type="xs:integer"/>
+                                <xs:element name="number" type="xs:integer"/>
+                                <xs:element name="first_name">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:maxLength value="20"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="patronymic">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:maxLength value="20"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="surname">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:maxLength value="20"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element type="xs:date" name="birth_date"/>
+                                <xs:element type="xs:string" name="gender"/>
+                                <xs:element type="xs:string" name="division_code"/>
+                                <xs:element type="xs:string" name="issued_by"/>
+                                <xs:element type="xs:date" name="issue_date"/>
+                                <xs:element name="birth_place">
+                                 <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                   <xs:maxLength value="100"/>
+                                  </xs:restriction>
+                                 </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="registration">
+                                 <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                   <xs:maxLength value="100"/>
+                                  </xs:restriction>
+                                </xs:simpleType>
+                               </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

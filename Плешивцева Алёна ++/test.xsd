@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clients_inf">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="pdata">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="first_name" type="xs:string"/>
+                            <xs:element name="surname" type="xs:string"/>
+                            <xs:element name="contacts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="phone" type="xs:integer"/>
+                                        <xs:element name="e-mail" type="xs:string"/>
+                                        <xs:element name="skype" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="documents">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="document" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name="document_type" type="xs:string"/>
+                                                    <xs:element name="series" type="xs:string"/>
+                                                    <xs:element name="number" type="xs:positiveInteger"/>
+                                                    <xs:element name="issued_by" type="xs:string"/>
+                                                    <xs:element name="issue_date" type="xs:date"/>
+                                                    <xs:element name="birth_date" type="xs:date"/>
+                                                    <xs:element name="gender" type="xs:string"/>
+                                                    <xs:element name="birth_place" type="xs:string"/>
+                                                    <xs:element name="today" type="xs:dateTime"/>
+                                                    <xs:element name="time" type="xs:time"/>
+                                                    <xs:element name="timezone" type="xs:time"/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

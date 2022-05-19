@@ -1,0 +1,54 @@
+{
+    "ticket_info": {
+        "ticket_number": "123456789",
+        "passenger_info": {
+            "passport": {
+                "first_name": "Павел",
+                "last_name": "Новиков",
+                "patronymic": "Сергеевич",
+                "passport_series": "1234",
+                "passport_number": "567890",
+                "gender": "Мужской",
+                "birth_date": "1995-09-09",
+                "birth_city": "Москва",
+                "issued_by": "УФМС РФ по Московской области",
+                "issue_date": "2015-09-20",
+                "division_code": "123-456",
+                "registration_address": "г.Москва, ул.Краснобогатырская, д.55, кв.55"
+            },
+            "student_id": {
+                "issued_by": "Московский государственный университет имени М.В.Ломоносова",
+                "issue_date": "2013-09-05",
+                "student_id_number": "123456789",
+                "start_education_date": "2013-09-01",
+                "education_type": "Очная",
+                "faculty": "Химический факультет",
+                "first_name": "Павел",
+                "last_name": "Новиков",
+                "patronymic": "Сергеевич"
+            }
+        },
+        "travel_info": {
+            "train_number": "753AA",
+            "coach_number": "03C",
+            "seat_number": "031",
+            "class": "2C",
+            "departure_station": "Санкт-Петербург Московский вокзал",
+            "departure_date": "2022-05-13",
+            "departure_time": "09:30:00+03:00",
+            "arrival_station": "Москва Ленинградский вокзал",
+            "arrival_date": "2022-05-13",
+            "arrival_time": "18:20:00+03:00"
+        },
+        "payment_info": {
+            "order_number": "123456789",
+            "fare": "Студенческий",
+            "price": "2000.00",
+            "servises": "0.00",
+            "commission": "0.00",
+            "payment_date": "2022-05-10",
+            "payment_time": "12:30:00+03:00",
+            "payment_method": "Онлайн"
+        }
+    }
+}

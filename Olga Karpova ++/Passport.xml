@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients_inf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Passport.xsd">
+    <pdata>
+        <documents>
+            <document>
+                <document_type>Паспорт</document_type>
+                <series>6800</series>
+                <pasportnumber>458235</pasportnumber>
+                <issued_by>2 отделом милиции люберецкого УВД московской области</issued_by>
+                <issue_date>10.10.2017</issue_date>
+                <division_code>725-475</division_code>
+                <first_name>Ольга</first_name>
+                <surname>Карпова</surname>
+                <birth_date>16.07.1983</birth_date>
+                <gender>ЖЕН</gender>
+                <birth_place>г.Москва</birth_place>
+                <startdate>2022-05-13T18:30:10.5</startdate>
+                <start>18:30:10Z</start>
+            </document>
+            <document>
+                <document_type>Страховое свидетельство</document_type>
+                <insurancenumber>204-882-774 85</insurancenumber>
+                <full_name>Карпова Ольга Юрьевна</full_name>
+                <birth_date>16.07.1983</birth_date>
+                <birth_place>г.Москва</birth_place>
+                <gender>ЖЕН</gender>
+            </document>
+        </documents>
+    </pdata>
+</clients_inf>
+	   
+	 
+	 

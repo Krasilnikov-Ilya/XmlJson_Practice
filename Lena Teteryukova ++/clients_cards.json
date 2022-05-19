@@ -1,0 +1,31 @@
+{"clients_cards":
+{
+"client": {
+	"id":"3524186479",
+	"first_name":"Artem",
+	"surname":"Ivanov",
+	"middle_name":"Aleksandrovich",
+	"birth_date":"1975-05-13"
+},
+"cards": {
+	"card": [
+	{
+		"id":"38976",
+		"number":"5432730013986395",
+		"type":"debit",
+		"limit":"350000",
+		"start_date":"2020-08-12",
+		"expire_date":"2030-08-12"
+	},
+	{
+		"id":"65748",
+		"number":"4432456734529076",
+		"type":"credit",
+		"limit":"100000",
+		"start_date":"2021-10-17",
+		"expire_date":"2026-10-17"
+		}
+		]
+	}
+}
+}

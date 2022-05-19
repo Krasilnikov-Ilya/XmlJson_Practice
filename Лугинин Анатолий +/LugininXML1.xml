@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="LugininXSD1.xsd">
+	<passport>
+		<firstPage>
+			<series>1234</series>
+			<number>141027</number>
+			<passportGivenBy>ГУ МВД по городу Москва</passportGivenBy>
+			<dateOfIssue>2022-05-16</dateOfIssue>
+			<divisionCode>111-222</divisionCode>
+		</firstPage>
+		<secondPage>
+			<surname>Лугинин</surname>
+			<name>Анатолий</name>
+			<patronymic>Алексеевич</patronymic>
+			<gender>male</gender>
+			<birthday>1998-10-19</birthday>
+			<PlaceOfBirth>гор. Москва</PlaceOfBirth>
+		</secondPage>
+		<fourthPage>
+			<region>Москва</region>
+			<City>Москва</City>
+			<Street>Пушкина,д.1,кв.1</Street>
+		</fourthPage>
+	</passport>
+</document>

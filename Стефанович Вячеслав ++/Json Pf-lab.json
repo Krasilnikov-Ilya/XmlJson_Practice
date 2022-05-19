@@ -1,0 +1,21 @@
+{
+    "clients_inf": {
+        "pdata": {
+            "document": {
+                "document_type": "Паспорт РФ",
+                "series": "1234",
+                "number": 567890,
+                "first_name": "Данил",
+                "surname": "Даниев",
+                "secondname": "Данилович",
+                "gender": "МУЖ",
+                "birth_date": "1998-02-12",
+                "issued_by": "Отделом отдела отделов",
+                "settlement_type": "Гор.",
+                "settlement_name": "Москва",
+                "issue_date": "2012-01-13",
+                "current_date": "2022-05-13T18:30:10.5"
+            }
+        }
+    }
+}

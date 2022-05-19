@@ -1,0 +1,27 @@
+{
+  "passport": [
+    {
+      "firstPage": "test",
+      "series": 1234,
+      "number": 141027,
+      "passportGivenBy": "ГУ МВД по городу Москва",
+      "dateOfIssue": "16.05.2022",
+      "divisionCode": "111-222"
+    },
+    {
+      "secondPage": "test",
+      "surname": "Лугинин",
+      "name": "Анатолий",
+      "patronymic": "Алексеевич",
+      "gender": "male",
+      "birthday": "19.10.1998",
+      "PlaceOfBirth": "гор. Москва"
+    },
+    {
+      "fourthPage": "Место жительства",
+      "region": "Москва",
+      "City": "Москва",
+      "Street": "Пушкина,д.1,кв.1"
+    }
+  ]
+}

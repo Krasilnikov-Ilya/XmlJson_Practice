@@ -1,0 +1,21 @@
+{
+	"homework": {
+		"passport": {
+			"series": "1234",
+			"number": 567890,
+			"surname": "Назарова",
+			"first_name": "Юлия",
+			"second_name": "Яковлевна",
+			"gender": "Жен",
+			"birth_date": "1990-01-01",
+			"region": "Город",
+			"birth_place": "Москва",
+			"issued_by": "Отделом УФМС РФ",
+			"issue_date": "2000-01-11"
+		},
+		"date_time": {
+			"current_date_time": "2022-05-15T10:30:30",
+			"current_time": "10:30:30+04:00"
+		}
+	}
+}

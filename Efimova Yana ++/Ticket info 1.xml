@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket_info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="Ticket info.xsd">
+
+
+    <ticket_number>123456789</ticket_number>
+    <passenger_info>
+        <passport>
+            <first_name>Павел</first_name>
+            <last_name>Новиков</last_name>
+            <patronymic>Сергеевич</patronymic>
+            <passport_series>1234</passport_series>
+            <passport_number>567890</passport_number>
+            <gender>Мужской</gender>
+            <birth_date>1995-09-09</birth_date>
+            <birth_city>Москва</birth_city>
+            <issued_by>УФМС РФ по Московской области</issued_by>
+            <issue_date>2015-09-20</issue_date>
+            <division_code>123-456</division_code>
+            <registration_address>г.Москва, ул.Краснобогатырская, д.55, кв.55</registration_address>
+        </passport>
+
+        <student_id>
+            <issued_by>Московский государственный университет имени М.В.Ломоносова</issued_by>
+            <issue_date>2013-09-05</issue_date>
+            <student_id_number>123456789</student_id_number>
+            <start_education_date>2013-09-01</start_education_date>
+            <education_type>Очная</education_type>
+            <faculty>Химический факультет</faculty>
+            <first_name>Павел</first_name>
+            <last_name>Новиков</last_name>
+            <patronymic>Сергеевич</patronymic>
+        </student_id>
+    </passenger_info>
+
+    <travel_info>
+        <train_number>753AA</train_number>
+        <coach_number>03C</coach_number>
+        <seat_number>031</seat_number>
+        <class>2C</class>
+        <departure_station>Санкт-Петербург Московский вокзал</departure_station>
+        <departure_date>2022-05-13</departure_date>
+        <departure_time>09:30:00+03:00</departure_time>
+        <arrival_station>Москва Ленинградский вокзал</arrival_station>
+        <arrival_date>2022-05-13</arrival_date>
+        <arrival_time>18:20:00+03:00</arrival_time>
+    </travel_info>
+
+    <payment_info>
+        <order_number>123456789</order_number>
+        <fare>Студенческий</fare>
+        <price>2000.00</price>
+        <servises>0.00</servises>
+        <commission>0.00</commission>
+        <payment_date>2022-05-10</payment_date>
+        <payment_time>12:30:00+03:00</payment_time>
+        <payment_method>Онлайн</payment_method>
+    </payment_info>
+
+</ticket_info>
+
+

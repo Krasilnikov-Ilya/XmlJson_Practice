@@ -1,0 +1,19 @@
+{
+  "сustomer_data": {
+    "document": {
+      "document_type": "Паспорт РФ",
+      "series": 101,
+      "number": 454849,
+      "first_name": "Иван",
+      "patronymic": "Николавевич",
+      "surname": "Сидоров",
+      "birth_date": "1995-01-20",
+      "gender": "МУЖ",
+      "division_code": "770-010",
+      "issued_by": "Отделом УФМС России по гор.Москве",
+      "issue_date": "2015-05-05",
+      "birth_place": "Россия,г.Москва",
+      "registration": "г.Москва,ул.Ленина 25, кв.5"
+    }
+  }
+}

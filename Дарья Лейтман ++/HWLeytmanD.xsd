@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+    <xsd:simpleType name="seriesType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:pattern value="[0-9]{4}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="numberType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:pattern value="[0-9]{6}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="genderType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="Муж|Жен"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="locationType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Гор."></xsd:enumeration>
+            <xsd:enumeration value="Пос."></xsd:enumeration>
+            <xsd:enumeration value="Д."></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <xsd:element name="passportdata">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="series" type="seriesType"></xsd:element>
+                <xsd:element name="number" type="numberType"></xsd:element>
+                <xsd:element name="surname" type="xsd:string"></xsd:element>
+                <xsd:element name="name" type="xsd:string"></xsd:element>
+                <xsd:element name="patronymic" type="xsd:string"></xsd:element>
+                <xsd:element name="gender" type="genderType"></xsd:element>
+                <xsd:element name="dateOfBirth" type="xsd:date"></xsd:element>
+                <xsd:element name="location" type="locationType" ></xsd:element>
+                <xsd:element name="city" type="xsd:string"></xsd:element>
+                <xsd:element name="issuedBy" type="xsd:string"></xsd:element>
+                <xsd:element name="issuedDate" type="xsd:date"></xsd:element>
+                <xsd:element name="currentDate" type="xsd:dateTime"/>
+                <xsd:element name="currentTime" type="xsd:time"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
+

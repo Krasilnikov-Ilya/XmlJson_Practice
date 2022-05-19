@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="clients_cards">
+		<xs:complexType>
+		<xs:sequence>
+	<xs:element name="client">
+		<xs:complexType>
+		<xs:sequence>
+	<xs:element name="id">
+	 <xs:simpleType>
+	 <xs:restriction base="xs:string">
+		<xs:length value="10"/>
+	</xs:restriction>
+	</xs:simpleType>
+	</xs:element>
+	<xs:element name="first_name" type="xs:string"/>
+	<xs:element name="surname" type="xs:string"/>
+	<xs:element name="middle_name" type="xs:string"/>
+	<xs:element name="birth_date" type="xs:date"/>
+		</xs:sequence>
+		</xs:complexType>
+		</xs:element>
+	<xs:element name="cards">
+		<xs:complexType>
+		<xs:sequence>
+	<xs:element name="card" maxOccurs="unbounded">
+		<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+	<xs:element name="id" type="xs:positiveInteger"/>
+	<xs:element name="number">
+	<xs:simpleType>
+	<xs:restriction base="xs:string">
+         <xs:minLength value="8"/>
+         <xs:maxLength value="19"/>
+		</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+	<xs:element name="type">
+	<xs:simpleType>
+	<xs:restriction base="xs:string">
+         <xs:pattern value="debit|credit"/>
+		</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+	<xs:element name="limit">
+	<xs:simpleType>
+	<xs:restriction base="xs:integer">
+		<xs:maxInclusive value="1000000"/>
+		</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+	<xs:element name="start_date" type="xs:date"/>
+	<xs:element name="expire_date" type="xs:date"/>
+			</xs:choice>
+		    </xs:complexType>
+		    </xs:element>
+	</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>							
+</xs:schema>

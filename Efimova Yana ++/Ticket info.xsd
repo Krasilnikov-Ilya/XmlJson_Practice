@@ -1,0 +1,104 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ticket_info">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="ticket_number" type="xs:string"/>
+
+                <xs:element name="passenger_info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            
+                            <xs:element name="passport">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="first_name" type="xs:string"/>
+                                        <xs:element name="last_name" type="xs:string"/>
+                                        <xs:element name="patronymic" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="passport_series" type="xs:string"/>
+                                        <xs:element name="passport_number" type="xs:string"/>
+                                        <xs:element name="gender" type="xs:string"/>
+                                        <xs:element name="birth_date" type="xs:date"/>
+                                        <xs:element name="birth_city" type="xs:string"/>
+                                        <xs:element name="issued_by" type="xs:string"/>
+					                    <xs:element name="issue_date" type="xs:date"/>
+                                        <xs:element name="division_code" type="xs:string"/>
+                                        <xs:element name="registration_address" type="xs:string"/>
+                                    </xs:sequence>   
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="student_id" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="issued_by" type="xs:string"/>
+                                        <xs:element name="issue_date" type="xs:date"/>
+                                        <xs:element name="student_id_number" type="xs:string"/>
+                                        <xs:element name="start_education_date" type="xs:date"/>
+                                        <xs:element name="education_type" type="xs:string"/>
+                                        <xs:element name="faculty" type="xs:string"/>
+                                        <xs:element name="first_name" type="xs:string"/>
+                                        <xs:element name="last_name" type="xs:string"/>
+                                        <xs:element name="patronymic" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>   
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="pensioner_id" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="pensioner_id_number" type="xs:string"/>
+                                        <xs:element name="pensioner_id_type" type="xs:string"/>
+                                        <xs:element name="pensioner_id_term" type="xs:string"/>
+                                        <xs:element name="snils" type="xs:string"/>
+                                        <xs:element name="first_name" type="xs:string"/>
+                                        <xs:element name="last_name" type="xs:string"/>
+                                        <xs:element name="patronymic" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>   
+                                </xs:complexType>
+                            </xs:element>
+                                        
+                        </xs:sequence>   
+                    </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="travel_info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="train_number" type="xs:string"/>
+                            <xs:element name="coach_number" type="xs:string"/>
+                            <xs:element name="seat_number" type="xs:string"/>
+                            <xs:element name="class" type="xs:string"/>
+                            <xs:element name="departure_station" type="xs:string"/>
+                            <xs:element name="departure_date" type="xs:date"/>
+                            <xs:element name="departure_time" type="xs:time"/>
+                            <xs:element name="arrival_station" type="xs:string"/>
+                            <xs:element name="arrival_date" type="xs:date"/>
+                            <xs:element name="arrival_time" type="xs:time"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="payment_info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="order_number" type="xs:string"/>
+                            <xs:element name="fare" type="xs:string"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                            <xs:element name="servises" type="xs:decimal"/>
+                            <xs:element name="commission" type="xs:decimal"/>
+                            <xs:element name="payment_date" type="xs:date"/>
+                            <xs:element name="payment_time" type="xs:time"/>
+                            <xs:element name="payment_method" type="xs:string"/>
+                        </xs:sequence>   
+                    </xs:complexType>
+                </xs:element>
+
+
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

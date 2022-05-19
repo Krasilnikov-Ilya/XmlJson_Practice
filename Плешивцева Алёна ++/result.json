@@ -1,0 +1,31 @@
+{
+  "clients_inf": {
+    "type": "vip-клиент",
+    "pdata": {
+      "first_name": "Алена",
+      "surname": "Плешивцева",
+      "contacts": {
+        "phone": "89164880833",
+        "e-mail": "alenkaalex@rambler.ru",
+        "skype": "alenkaalex"
+      },
+      "documents": {
+        "document": [
+          {
+            "document_type": "Паспорт РФ",
+            "series": "4516",
+            "number": "782404",
+            "issued_by": "УФМС России по гор.Москве по району Нижегородский",
+            "issue_date": "2016-10-11",
+            "birth_date": "1996-09-27",
+            "gender": "Женский",
+            "birth_place": "Москва",
+            "today": "2020-05-13T15:00:00",
+            "time": "15:00:00",
+            "timezone": "00:00:00+03:00:00"
+          }
+        ]
+      }
+    }
+  }
+}

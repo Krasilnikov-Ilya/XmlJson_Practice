@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="Homework.xsd">
+  <document_type>Паспорт РФ</document_type>
+  <main_page>
+    <series>130</series>
+    <number>145676</number>
+    <first_name>Василий</first_name>
+    <last_name>Пупкин</last_name>
+    <patronomyc>Леонтьевич</patronomyc>
+    <dob>08.08.1990</dob>
+    <gender>МУЖ</gender>
+    <date_of_issue>12.12.2000</date_of_issue>
+    <place_of_issue>ТП2 ОУФМС РОССИИ по г. Москве</place_of_issue>
+    <division_code>500-100</division_code>
+  </main_page>
+  <registration>
+    <date_of_registraion>13.02.1993</date_of_registraion>
+    <city>Москва</city>
+    <district>Московская</district>
+    <street>Молостовых</street>
+    <house>8</house>
+    <building>3</building>
+    <flat_number>745</flat_number>
+  </registration>
+</document>
